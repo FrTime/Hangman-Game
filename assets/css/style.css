@@ -1,0 +1,45 @@
+.arr {
+    /* font-family: 'Seaweed Script', cursive; */
+    font-family: 'Euphoria Script', cursive;
+}
+
+p {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.lead {
+    font-size: 46px;
+    font-weight: 900;
+}
+
+.display-4 {
+    font-size: 90px;
+    font-weight: 900;
+}
+
+.marginFix {
+    margin-left: 40px;
+}
+
+.currentWord {
+    text-align: center;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 80px;
+}
+
+body {
+    background-image: url("../images/wood.png");
+}
+
+.opacFix {
+    background-image: url("../images/wood.png");
+}
+
+.opac {
+    opacity: .75;
+}
+
+audio {
+    visibility: hidden;
+}
