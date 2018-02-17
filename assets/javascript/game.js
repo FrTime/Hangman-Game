@@ -51,6 +51,8 @@ $(document).ready(function() {
 
                 console.log("wordsList var populated")
 
+
+// Below is the function that selects a word at random.  If the length of the word list changes this will need to be updated.
         pirateWord = wordsList[randomRange(0,26)];
             console.log("The chosen word is: " + pirateWord);
 
@@ -101,6 +103,7 @@ $(document).ready(function() {
                 guessCount = 7;
                 PlaySound('cannon');
                 $(".wordsGuessed").text("Words guessed: " + wordsGuessed);
+// Below is the function that selects a word at random.  If the length of the word list changes this will need to be updated.
                 pirateWord = wordsList[randomRange(0,26)];
                 for (i = 0; i < pirateWord.length; i++) {
                     pirateArr.push("_");
